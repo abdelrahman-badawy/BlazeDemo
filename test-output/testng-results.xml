@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-14T21:56:55 EET" name="BlazeDemoSuite" finished-at="2023-01-14T21:58:07 EET" duration-ms="72485">
+    <groups>
+    </groups>
+    <test started-at="2023-01-14T21:56:55 EET" name="BlazeDemoTest" finished-at="2023-01-14T21:58:07 EET" duration-ms="72485">
+      <class name="com.BlazeDemo.testcases.RemoveItemTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BlazeDemo.testcases.RemoveItemTest@65fb9ffc]" started-at="2023-01-14T21:57:26 EET" name="setup" finished-at="2023-01-14T21:57:31 EET" duration-ms="5315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="removeItemTest(java.lang.reflect.Method)[pri:0, instance:com.BlazeDemo.testcases.RemoveItemTest@65fb9ffc]" started-at="2023-01-14T21:57:31 EET" name="removeItemTest" finished-at="2023-01-14T21:57:38 EET" duration-ms="6424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.BlazeDemo.testcases.RemoveItemTest.removeItemTest(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.BlazeDemo.testcases.RemoveItemTest@65fb9ffc]" started-at="2023-01-14T21:57:38 EET" name="tearDown" finished-at="2023-01-14T21:57:39 EET" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.BlazeDemo.testcases.RemoveItemTest -->
+      <class name="com.BlazeDemo.testcases.AddItemTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BlazeDemo.testcases.AddItemTest@59474f18]" started-at="2023-01-14T21:57:17 EET" name="setup" finished-at="2023-01-14T21:57:22 EET" duration-ms="4675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addItemTest(java.lang.reflect.Method)[pri:0, instance:com.BlazeDemo.testcases.AddItemTest@59474f18]" started-at="2023-01-14T21:57:22 EET" name="addItemTest" finished-at="2023-01-14T21:57:25 EET" duration-ms="3065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.BlazeDemo.testcases.AddItemTest.addItemTest(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.BlazeDemo.testcases.AddItemTest@59474f18]" started-at="2023-01-14T21:57:25 EET" name="tearDown" finished-at="2023-01-14T21:57:26 EET" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.BlazeDemo.testcases.AddItemTest -->
+      <class name="com.BlazeDemo.testcases.SignupTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BlazeDemo.testcases.SignupTest@34123d65]" started-at="2023-01-14T21:57:08 EET" name="setup" finished-at="2023-01-14T21:57:15 EET" duration-ms="6711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signupTest(java.lang.reflect.Method)[pri:0, instance:com.BlazeDemo.testcases.SignupTest@34123d65]" started-at="2023-01-14T21:57:15 EET" name="signupTest" finished-at="2023-01-14T21:57:17 EET" duration-ms="1966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.BlazeDemo.testcases.SignupTest.signupTest(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.BlazeDemo.testcases.SignupTest@34123d65]" started-at="2023-01-14T21:57:17 EET" name="tearDown" finished-at="2023-01-14T21:57:17 EET" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.BlazeDemo.testcases.SignupTest -->
+      <class name="com.BlazeDemo.testcases.CheckoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BlazeDemo.testcases.CheckoutTest@1bb5a082]" started-at="2023-01-14T21:57:50 EET" name="setup" finished-at="2023-01-14T21:57:57 EET" duration-ms="7042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkoutTest(java.lang.reflect.Method)[pri:0, instance:com.BlazeDemo.testcases.CheckoutTest@1bb5a082]" started-at="2023-01-14T21:57:57 EET" name="checkoutTest" finished-at="2023-01-14T21:58:07 EET" duration-ms="9682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.BlazeDemo.testcases.CheckoutTest.checkoutTest(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.BlazeDemo.testcases.CheckoutTest@1bb5a082]" started-at="2023-01-14T21:58:07 EET" name="tearDown" finished-at="2023-01-14T21:58:07 EET" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.BlazeDemo.testcases.CheckoutTest -->
+      <class name="com.BlazeDemo.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BlazeDemo.testcases.LoginTest@130d63be]" started-at="2023-01-14T21:56:55 EET" name="setup" finished-at="2023-01-14T21:57:03 EET" duration-ms="7960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.reflect.Method)[pri:0, instance:com.BlazeDemo.testcases.LoginTest@130d63be]" started-at="2023-01-14T21:57:03 EET" name="loginTest" finished-at="2023-01-14T21:57:07 EET" duration-ms="3975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.BlazeDemo.testcases.LoginTest.loginTest(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.BlazeDemo.testcases.LoginTest@130d63be]" started-at="2023-01-14T21:57:07 EET" name="tearDown" finished-at="2023-01-14T21:57:08 EET" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.BlazeDemo.testcases.LoginTest -->
+      <class name="com.BlazeDemo.testcases.ItemsInCategoriesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BlazeDemo.testcases.ItemsInCategoriesTest@3e694b3f]" started-at="2023-01-14T21:57:39 EET" name="setup" finished-at="2023-01-14T21:57:45 EET" duration-ms="6329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="itemsInCategoriesTest(java.lang.reflect.Method)[pri:0, instance:com.BlazeDemo.testcases.ItemsInCategoriesTest@3e694b3f]" started-at="2023-01-14T21:57:45 EET" name="itemsInCategoriesTest" finished-at="2023-01-14T21:57:49 EET" duration-ms="4340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.BlazeDemo.testcases.ItemsInCategoriesTest.itemsInCategoriesTest(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsInCategoriesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.BlazeDemo.testcases.ItemsInCategoriesTest@3e694b3f]" started-at="2023-01-14T21:57:49 EET" name="tearDown" finished-at="2023-01-14T21:57:50 EET" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.BlazeDemo.testcases.ItemsInCategoriesTest -->
+    </test> <!-- BlazeDemoTest -->
+  </suite> <!-- BlazeDemoSuite -->
+</testng-results>
